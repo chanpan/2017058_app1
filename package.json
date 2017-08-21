@@ -4,9 +4,9 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "babel":"babel",
-    "webpack":"webpack --watch",
-    "start":"electron ."
+    "babel": "babel",
+    "webpack": "webpack --watch",
+    "start": "electron ."
   },
   "keywords": [],
   "author": "",
@@ -19,5 +19,8 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "webpack": "^3.5.4"
+  },
+  "dependencies": {
+    "mysql": "^2.14.1"
   }
 }
